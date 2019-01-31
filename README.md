@@ -1,7 +1,7 @@
 # SSRPanel面板SSR后端
 
 ## 安装
-- wget https://github.com/quniu/shadowsocksr/archive/master.zip && unzip master && mv shadowsocksr-master shadowsocksr
+- wget https://github.com/MoeRats/shadowsocksr/archive/master.zip && unzip master && mv shadowsocksr-master shadowsocksr
 
 ## 更新软件源
 #### CentOS
@@ -30,7 +30,7 @@ openssl openssl-devel openssl-static sqlite-devel bzip2-devel bzip2-libs
 
 2.安装pyenv
 ```
-curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+curl -L https://github.com/MoeRats/pyenv-installer/raw/master/bin/pyenv-installer | bash
 ```
 
 3.添加环境变量到.bashrc
@@ -102,4 +102,3 @@ pip install -r requestment.txt
 
 数据库机的 iptables、firewall 得对本节点IP开放
 数据库机的 mysql 的对本节点进行授权（不推荐使用root账号）
-

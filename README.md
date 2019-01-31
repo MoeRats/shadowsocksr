@@ -1,6 +1,4 @@
-SSRR
-
-兼容SSRPanel的自改版SSR(R)后端，可兼容原版SS、SSR，本版本是带有IP自动上报功能的
+# SSRPanel面板SSR后端
 
 ## 安装
 - wget https://github.com/quniu/shadowsocksr/archive/master.zip && unzip master && mv shadowsocksr-master shadowsocksr
